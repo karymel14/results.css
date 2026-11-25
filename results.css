@@ -1,0 +1,151 @@
+
+/* General Page Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333333;
+}
+
+/* Page Header */
+header {
+    text-align: center;
+    background-color: #800000;
+    color: white;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    margin: 20px 0 10px;
+}
+
+header h2 {
+    margin: 0;
+    font-weight: normal;
+}
+
+/* Metadata Bar */
+.metadata {
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 12px;
+    color: #333333;
+}
+
+.metadata p {
+    margin: 0;
+}
+
+/* Main Content */
+main {
+    padding: 25px;
+}
+
+main h2 {
+    text-align: center;
+    color: #800000;
+}
+
+/* Results Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 20px;
+}
+
+/* Table Cells */
+th, td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Table Header */
+thead th {
+    background-color: #800000;
+    color: white;
+}
+
+/* Main Table Title */
+thead tr:first-child th {
+    background-color: #5c0000;
+    font-size: 18px;
+    padding: 16px;
+}
+
+/* Alternate Row Colours */
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FFF8F4;
+}
+
+/* Hover Effect */
+tbody tr:hover {
+    background-color: #f2e0d8;
+}
+
+/* Class Average Row */
+tfoot th {
+    background-color: #EEEEEE;
+    color: #800000;
+    font-weight: bold;
+}
+
+/* Grade Colour Coding */
+.grade-a {
+    background-color: #d4edda;
+    color: #155724;
+    font-weight: bold;
+}
+
+.grade-b {
+    background-color: #cce5ff;
+    color: #004085;
+    font-weight: bold;
+}
+
+.grade-c {
+    background-color: #fff3cd;
+    color: #856404;
+    font-weight: bold;
+}
+
+.grade-d {
+    background-color: #f8d7da;
+    color: #721c24;
+    font-weight: bold;
+}
+
+.grade-f {
+    background-color: #dc3545;
+    color: white;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #800000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Responsive Table */
+@media screen and (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+}
